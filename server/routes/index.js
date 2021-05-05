@@ -11,6 +11,7 @@ router.get('/', (req, res, next) => {
 // user routes
 router.post('/login', UserController.login, errorHandler)
 router.post('/register', UserController.register, errorHandler)
+router.patch('/confirm/:token', UserController.confirm, errorHandler)
 
 router.use(authentication)
 // company routes

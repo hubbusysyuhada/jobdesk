@@ -5,6 +5,7 @@
   
 # Features :
  - Register and login for job seeker
+ - Email verification
  - Get all companies data stored in Jobdesk database
  - Add company choosen to user's favorites
 
@@ -14,5 +15,6 @@
  - PostgreSQL
  - Sequelize
  - JSON Web Token
+ - Nodemailer
 
  ## Front End

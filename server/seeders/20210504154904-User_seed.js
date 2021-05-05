@@ -7,6 +7,7 @@ module.exports = {
         Username: 'Benjamin',
         Email: 'benjamin@mail.com',
         Password: hashPassword('benjamin'),
+        Confirmation: 'true',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -14,6 +15,7 @@ module.exports = {
         Username: 'Rita',
         Email: 'rita@mail.com',
         Password: hashPassword('rita'),
+        Confirmation: 'true',
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -21,6 +23,7 @@ module.exports = {
         Username: 'Tokyo',
         Email: 'tokyo@mail.com',
         Password: hashPassword('tokyo'),
+        Confirmation: 'true',
         createdAt: new Date(),
         updatedAt: new Date()
       },

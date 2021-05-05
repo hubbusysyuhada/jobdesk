@@ -44,7 +44,7 @@ class FavoriteController {
             else {
                 console.log('masuk else');
                 const response = await UserFavoriteCompany.create({UserId: id, CompanyId})
-                res.status(201).json({message : `Company Id ${CompanyId} successfully added to favorite`, response})
+                res.status(201).json({message : `Company Id ${CompanyId} successfully added to favorite`})
             }
         } catch (error) {
             if (error.name === 'SequelizeForeignKeyConstraintError') next({
