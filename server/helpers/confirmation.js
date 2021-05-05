@@ -14,7 +14,7 @@ async function sendConfirmationEmail (email, token) {
         html: `Welcome to Jobdesk
         <br>
         <br>
-        Please verify your email <a href="http://localhost:3000/confirm/${token}">here</a>
+        Please verify your email <a href="https://jobdesk-hubb.herokuapp.com/confirm/${token}">here</a>
         <br>
         <br>
         Glad to welcome you =)
